@@ -4,6 +4,11 @@ body{
     margin: 0 auto;
     padding:20px;
 }
+
+h1{
+    font-family: 'Petit Formal Script', cursive;
+}
+
 h2 {
     width: 100%; 
     text-align: center; 
@@ -16,6 +21,10 @@ h2 {
  h2 span { 
      background:#fff; 
      padding:0 10px; 
+ }
+
+ h3{
+     font-size:1.4em;
  }
 
  h4{
