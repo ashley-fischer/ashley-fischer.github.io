@@ -14,13 +14,36 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <div class="header">    
         <h1>Ashley Fischer</h1>
         <h3>Project Coordinator</h3></div>
 
 <hr>
-<p class="contact">Whitewright, TX 75491 ♦ (609) 306-5126 ♦ ashley.fischer87@gmail.com </p>
-        
+<p class="contact">Whitewright, TX 75491 ♦ (609) 306-5126 ♦ <a href="mailto:ashley.fischer87@gmail.com">ashley.fischer87@gmail.com</a></p>
+        <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 <h2><span>Professional Summary</span> </h2> 	
 <p>Experienced Web Development Team Lead and project coordiantor with over 4 years of experience. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements.
 Team Lead with a background as a project coordinator and customer service representative looking to join a growing entrepreneurial organization as part of the Executive team.
