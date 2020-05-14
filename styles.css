@@ -25,7 +25,7 @@ h2 {
  p{
      padding-top:10px;
     }
-    
+
  ul{
      padding-top:10px;
  }
@@ -40,3 +40,8 @@ h2 {
 .skills{
     column-count:2;
 }
+
+@media only screen and (max-width: 640px) {
+    .skills{
+        column-count: 1;
+    }
