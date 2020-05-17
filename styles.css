@@ -76,6 +76,11 @@ h2 {
       max-width:30%;
       margin:0 auto;
   }
+
+  .deco{
+      max-width:40%;
+      margin:0 auto;
+  }
 @media only screen and (max-width: 640px) {
     .skills{
         column-count: 1;
