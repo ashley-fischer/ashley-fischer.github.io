@@ -72,8 +72,12 @@ h2 {
     background-color: #555;
   }
 
+  .self{
+      max-width:30%;
+      margin:0 auto;
+  }
 @media only screen and (max-width: 640px) {
     .skills{
         column-count: 1;
     }
-
+}
